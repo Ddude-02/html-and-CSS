@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>University Registration Form</h1>
+    <p>Please fill in the following details:</p>
+    <hr>
+    <h2>Personal Details</h2>
+    <form>
+        <label for="Fname">First Name : </label>
+        <input type="text" id="Fname" name="FirstName">
+        <br><br>
+        <label for ="Lname">Last Name: </label>
+        <input type="text" id="Lname" name="LastName">
+        <br><br>
+        <label for="Date of Birth">Date of Birth: </label>
+        <input type="date" id="DOB" name="DateOfBirth">
+        <br><br>
+        <label for="Gender">Gender : </label>
+        <br>
+        <input type="radio" id="male" name="Gender" value="male">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" id="female" name="Gender" value="female">
+        <label for="female">Female</label>
+        <br>
+        <input type="radio" id="other" name="Gender" value="other">
+        <label for="other">Other</label>
+        <br><br>
+        <!-- Photo Upload -->
+        <p>Upload Your Photo:</p>
+        <input type="file" name="photo" accept="image/*">
+        <br><br>
+        <hr>
+        <h2>Contact Information</h2>
+        <label for="Email">E-Mail </label>
+        <input type="email" id="Email" name="Email">
+        <br><br>
+        <label for="Phone">Phone Number </label>
+        <input type="tel" id="Phone" name="Phone">
+        <br><br>
+        <label for="Address">Address : </label>
+        <textarea id="Address" name="Address"></textarea>
+        <br><br>
+        <hr>
+        <h2>Academic Details</h2>
+        <label for="Department">Select Your Department : </label>
+        <select id="Department" name="Department">
+            <option value="Dept.">Depart</option>
+            <option value="CSE">CSE</option>
+            <option value="ECE">ECE</option>
+            <option value="EEE">EEE</option>
+            <option value="MECH">MECH</option>
+            <option value="CIVIL">CIVIL</option>
+        </select>
+        <br><br>
+        <label for="Rollno">Roll Number :</label>
+        <input type="number" id="Rollno" name="Rollno">
+        <br><br>
+        <label for="clubs">Clubs/Activities : </label>
+        <br>
+        <input type="checkbox" id="sports" name="clubs" value="sports">
+        <label for="sports">Sports</label>
+        <br>
+         <input type="checkbox" id="Arts" name="clubs" value="Arts">
+        <label for="Arts">Arts</label>
+        <br>
+         <input type="checkbox" id="Coding" name="clubs" value="Coding">
+        <label for="Coding">Coding</label>
+        <br><br>
+        <hr>
+        <h2>Create Your Account</h2>
+        <label for="Password">Create a Password : </label>
+        <input type="password" id="Password" name="Password">
+        <br><br>
+        <input type="checkbox" id="terms" name="terms">
+        <label for="terms">I agree to the terms and conditions</label>
+        <hr>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
