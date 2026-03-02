@@ -1,0 +1,21 @@
+body{
+    background-color: #000;
+    color: white;
+}
+#para1{
+    text-align: center;
+    text-decoration: underline blue wavy;/*line-trought,over-line color line style(dotted dashed solid)*/
+    font-weight: bolder;/*normal,bold,lighter*/
+
+}
+#para2{
+    text-align: center;/*start ,end*/
+    
+    text-transform: uppercase;/*capitalize,lowercase*/ 
+    line-height: normal;/*normal,number,percentage*/
+    /*font family is style of font*/ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#link{
+    text-decoration: none;
+}
